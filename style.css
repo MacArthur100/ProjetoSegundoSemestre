@@ -1,0 +1,58 @@
+body {  
+    font-family: Arial, sans-serif;  
+    margin: 0;  
+}  
+
+.barra-superior {  
+    background-color: #007BFF;  
+    color: white;  
+    padding: 10px;  
+    text-align: center;  
+}  
+
+.barra-menu {  
+    background-color: #0056b3;  
+    color: white;  
+    padding: 10px 0;  
+    text-align: center; /* Centraliza o texto da barra menu */  
+}  
+
+.barra-menu nav ul {  
+    list-style-type: none;  
+    padding: 0;  
+    display: flex; /* Usamos flexbox para alinhar os itens do menu */  
+    justify-content: center; /* Centraliza os itens do menu */  
+}  
+
+.barra-menu nav ul li {  
+    margin: 0 15px;  
+}  
+
+.barra-menu nav ul li a {  
+    color: white;  
+    text-decoration: none;  
+}  
+
+.barra-menu nav ul li a:hover {  
+    color: lightblue; /* Altera a cor do texto ao passar o mouse */  
+}
+
+footer {  
+    background-color: #007BFF;  
+    color: white;  
+    text-align: center;  
+    padding: 10px 0;  
+    position: relative;  
+    bottom: 0;  
+    width: 100%;  
+}  
+
+main {  
+    padding: 20px;  
+    text-align: center;  
+    font-size: 18px;  
+}  
+
+.rodapé {
+    background-color: #222;
+}
